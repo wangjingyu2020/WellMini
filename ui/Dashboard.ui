@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Dashboard</class>
+    <widget class="QWidget" name="Dashboard">
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QLabel" name="welcomeLabel">
+                    <property name="text">
+                        <string>Welcome 👋</string>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+                    <property name="styleSheet">
+                        <string>font-size: 18px; font-weight: bold;</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLabel" name="statusLabel">
+                    <property name="text">
+                        <string>Current status: Good working habits ✅</string>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+                    <property name="styleSheet">
+                        <string>font-size: 14px; color: green;</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QFrame" name="chartContainer">
+                    <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="chartLayout"/>
+                </widget>
+            </item>
+            <item>
+                <widget class="QPushButton" name="syncButton">
+                    <property name="text">
+                        <string>🔄 Sync Activity History</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QListWidget" name="historyList"/>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
