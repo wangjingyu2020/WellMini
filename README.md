@@ -1,4 +1,5 @@
-# WellMini 🌿
+# WellMini 🌿 
+https://github.com/wangjingyu2020/WellMini.git
 
 **WellMini** is a very basic Qt-based desktop application designed as a starting point for experimenting with core Qt concepts.
 
