@@ -1,6 +1,3 @@
-#ifndef WELLMINI_ACTIVITYCHART_H
-#define WELLMINI_ACTIVITYCHART_H
-
 #pragma once
 
 #include <QChartView>
@@ -23,6 +20,3 @@ private:
     QTimer* m_timer;
     int m_elapsedSeconds = 0;
 };
-
-
-#endif //WELLMINI_ACTIVITYCHART_H

@@ -1,7 +1,3 @@
-#ifndef WELLMINI_REMINDERDIALOG_H
-#define WELLMINI_REMINDERDIALOG_H
-
-
 #pragma once
 #include <QDialog>
 
@@ -25,7 +21,3 @@ private:
 private slots:
     void onBtnLaterClicked();
 };
-
-
-
-#endif //WELLMINI_REMINDERDIALOG_H

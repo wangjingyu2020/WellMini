@@ -1,6 +1,3 @@
-#ifndef WELLMINI_ACTIVITYMONITOR_H
-#define WELLMINI_ACTIVITYMONITOR_H
-
 #pragma once
 
 #include <QObject>
@@ -26,5 +23,3 @@ private:
     qint64 m_totalActiveSec = 0;
     QTimer* m_tickTimer;
 };
-
-#endif //WELLMINI_ACTIVITYMONITOR_H

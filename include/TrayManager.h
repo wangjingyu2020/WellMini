@@ -1,7 +1,5 @@
-#ifndef TRAYMANAGER_H
-#define TRAYMANAGER_H
-
 #pragma once
+
 #include <QObject>
 #include <QSystemTrayIcon>
 #include <QMainWindow>
@@ -38,7 +36,3 @@ private:
     QTimer* reminderTimer = nullptr;
 
 };
-
-
-
-#endif // TRAYMANAGER_H

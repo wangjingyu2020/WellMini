@@ -1,6 +1,3 @@
-#ifndef WELLMINI_DASHOARD_H
-#define WELLMINI_DASHOARD_H
-
 #pragma once
 
 #include <QWidget>
@@ -28,5 +25,3 @@ private:
     QNetworkAccessManager* networkManager;
     QTimer* statusTimer;
 };
-
-#endif //WELLMINI_DASHOARD_H
