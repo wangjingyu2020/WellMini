@@ -1,6 +1,3 @@
-#ifndef WELLMINI_LOGIN_H
-#define WELLMINI_LOGIN_H
-
 #pragma once
 
 #include <QWidget>
@@ -25,7 +22,3 @@ private:
 private slots:
     void on_loginButton_clicked();
 };
-
-
-
-#endif //WELLMINI_LOGIN_H

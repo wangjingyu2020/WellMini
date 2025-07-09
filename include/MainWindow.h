@@ -1,6 +1,3 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
-
 #pragma once
 
 #include <QMainWindow>
@@ -35,5 +32,3 @@ protected:
     void closeEvent(QCloseEvent *event) override;
 
 };
-
-#endif // MAINWINDOW_H
